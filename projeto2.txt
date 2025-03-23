@@ -1,0 +1,47 @@
+Aplicativo Gerenciador de Tarefas Avançado
+
+O aplivativo deve permetir que o usuario:
+
+Adicione novas tarefas com título, descrição e data de conclusão.
+Liste todas as tarefas, categorizando-as como pendentes ou concluídas.
+Marcar tarefas como concluidas.
+Remova Tarefas .
+Salvar e Carregar tarefas de um arquivo para garantir persistencia de dados entre execuções.
+Pesquisar tarefas por títulos ou descrições.
+Ordenar tarefas por data de conclusão.
+
+
+--- Planejamento ---
+
+Funcionalidades Principais
+
+Adicionar Tarefa  --> Entrada: Titulo, descrição e data de Conclusão.
+Ação: Criar uma nova tarefa e adiciona-lá a lista de tarefas.
+
+Listar Tarefas --> Exibir todas as tarefas, categorizando-as como pendentes ou concluidas.
+
+Marcar Tarefa como Concluida --> Entrada ID da tarefa.
+Ação: Atualizar o status da tarefa para concluída.
+
+Remover Tarefa --> Entrada: ID da tarefa.
+Ação: Remover a tarefa da Lista.
+
+Salvar e Carregar Tarefas --> Salvar: Escrever a lsita de tarefas.
+Carregar: Ler a lista de tarefas do arquivo.
+
+Pesquisar Tarefas --> Entrada: Termo de pesquisa.
+Ação: Filtrar tarefas que contenham o termo no título ou descrição.
+
+Ordenar Tarefas por Data --> Odernar e listar tarefas com base na data de conclusão.
+
+
+-- Estruturas --
+id --> Identificador único da Tarefa.
+titulo --> Titulo da Tarefa.
+descricao --> Descricao detalhada.
+data --> Data da conclusão.
+concluida --> Booleano indicando se a tarefa foi conclcuida.
+
+-- Arquivo de Dados --
+Tarefas serão armazenadas em um arquivo JSON denominado tarefas.json, o que permitirá
+a persistencia das tarefas entre as execuções.

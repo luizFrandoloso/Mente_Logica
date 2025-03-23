@@ -1,2 +1,3 @@
-# Mente_Logica
- Repositorio dos Exercicios Curso Mente_Logica
+# Mente_Lógica
+ Repositorio dos Exercicios realizados durante o Curso Mente_Logica
+
